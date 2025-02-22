@@ -4,13 +4,13 @@ body{
 }
 
 .Profile{
-    width: 650px;
-    margin: 30px auto;
-    background: white ;
-    padding: 20px;
-    border: 5px solid black;
-    display: flex;
-    flex-wrap: wrap;
+    width: 650px; /*กำหนดความกว้าง*/
+    margin: 30px auto; /*ขอบบน-ล่าง 30px*/ /*จัดหน้าจอแนวนอน*/
+    background: white;
+    padding: 20px; /*ระยะห่าง*/
+    border: 5px solid black; /*ขอบดำ*/
+    display: flex; /*จัดองค์ประกออบแนวนอน*/
+    flex-wrap: wrap; /*กันขอบล้น*/
 }
 
 img{
@@ -19,7 +19,7 @@ img{
 
 .Image{
     width: 30%;
-    text-align: center;
+    text-align: center; 
     padding: 20px;
 }
 
@@ -39,16 +39,16 @@ img{
 }
 
 .about{
-    margin-right: 10%;
-    background-color: aquamarine;
-    margin-top: 10px;
+    margin-right: 10%; /*ระยะห่างด้านขวา*/
+    background-color: aquamarine; /*สีพื้นหลัง จะใส่หรือไม่ก็ได้*/
+    margin-top: 10px; /*ระยะห่างด้านบน*/
 
 }
 
 .AS{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: flex; /*ทำให้หัวข้อ About กับ Skill อยู่บรรทัดเดียวกัน*/
+    justify-content: space-between; /*About อยู่ด้านซ้ายสุด ส่วน Skill อยู่ขวาสุด*/
+    align-items: flex-start; /*หัวข้อทั้งสองอยู่ขนานกัน*/
     margin-top: 20px;
 }
 
