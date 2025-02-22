@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    
+}
+
+.Profile{
+    width: 650px;
+    margin: 30px auto;
+    background: white ;
+    padding: 20px;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    border-radius: 60%;
+}
+
+.Image{
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.name{
+    margin: 20px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  font-size: 30px;
+}
+
+.skill{
+  font-size: 20px;
+  margin-right: 20%;
+  
+}
+
+.about{
+    margin-right: 10%;
+    background-color: aquamarine;
+    margin-top: 10px;
+
+}
+
+.AS{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.skills {
+    width: 48%;
+}
+
+.contact{
+    margin-top: -5%;
+}
+
