@@ -14,7 +14,7 @@ body{
 }
 
 img{
-    border-radius: 60%;
+    border-radius: 60%; /*ทำให้ภาพกลม*/
 }
 
 .Image{
